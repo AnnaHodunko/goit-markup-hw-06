@@ -924,9 +924,10 @@ img {
 
 @media screen and (min-width: 1158px) {
     .footer-page {
-        padding: 0 15px;
+        flex-wrap: nowrap;
         margin: 0 auto;
-        display: flex;
+        gap: unset;
+        min-width: 1158px;
     }
 }
 
@@ -945,6 +946,7 @@ img {
 
 @media screen and (min-width: 1158px) {
     .end-line {
+        width: 264px;
         margin-right: 120px;
     }
 }
@@ -986,7 +988,6 @@ img {
 @media screen and (min-width: 768px) {
     .div-footer-icon {
         align-items: start;
-        margin-right: 80px;
     }
 }
 
